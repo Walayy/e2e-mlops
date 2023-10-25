@@ -57,15 +57,15 @@ open up your local host  and port
 [dagshub](https://dagshub.com)
 
 
-MLFLOW_TRACKING_URI=https://dagshub.com/aghilas.sini/e2e-mlops.mlflow
-MLFLOW_TRACKING_USERNAME=aghilas.sini
-MLFLOW_TRACKING_PASSWORD=
+MLFLOW_TRACKING_URI=https://dagshub.com/AghilasSini/e2e-mlops.mlflow \
+MLFLOW_TRACKING_USERNAME=AghilasSini \
+MLFLOW_TRACKING_PASSWORD=c1f4eff3fe913cc0bdd85c69c2b98f8b5ec359ad \
 python script.py
 
 ```bash
-export MLFLOW_TRACKING_URI=https://dagshub.com/aghilas.sini/e2e-mlops.mlflow
-export MLFLOW_TRACKING_USERNAME=aghilas.sini
-export MLFLOW_TRACKING_PASSWORD
+export MLFLOW_TRACKING_URI=https://dagshub.com/AghilasSini/e2e-mlops.mlflow
+export MLFLOW_TRACKING_USERNAME=AghilasSini
+export MLFLOW_TRACKING_PASSWORD=c1f4eff3fe913cc0bdd85c69c2b98f8b5ec359ad 
 ```
 
 
