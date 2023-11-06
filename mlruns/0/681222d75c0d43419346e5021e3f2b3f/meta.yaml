@@ -1,0 +1,15 @@
+artifact_uri: file:///home/asini/Workspace/Enseignement/M2/MLOps/e2e-mlops/mlruns/0/681222d75c0d43419346e5021e3f2b3f/artifacts
+end_time: 1698319270037
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 681222d75c0d43419346e5021e3f2b3f
+run_name: luminous-shrike-998
+run_uuid: 681222d75c0d43419346e5021e3f2b3f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698319268781
+status: 3
+tags: []
+user_id: asini

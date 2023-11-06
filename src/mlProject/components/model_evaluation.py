@@ -54,5 +54,5 @@ class ModelEvaluation:
 
                 mlflow.sklearn.log_model(model,"model",registered_model_name="ElasticnetModel")
             else:
-                mlflow.sklearn.log_mode(model,"model")
+                mlflow.sklearn.log_model(model,"model")
 
