@@ -1,0 +1,15 @@
+artifact_uri: file:///home/asini/Workspace/Enseignement/M2/MLOps/e2e-mlops/mlruns/0/453c97a87ff645eabcb0e56d8fa71363/artifacts
+end_time: 1705254391489
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 453c97a87ff645eabcb0e56d8fa71363
+run_name: able-boar-720
+run_uuid: 453c97a87ff645eabcb0e56d8fa71363
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705254388434
+status: 3
+tags: []
+user_id: Sonex

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/asini/Workspace/Enseignement/M2/MLOps/e2e-mlops/mlruns/0/a7ea089400ed4b5a95d7f40f203f7abf/artifacts
+end_time: 1705252151557
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a7ea089400ed4b5a95d7f40f203f7abf
+run_name: delightful-hawk-806
+run_uuid: a7ea089400ed4b5a95d7f40f203f7abf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705252148469
+status: 3
+tags: []
+user_id: Sonex

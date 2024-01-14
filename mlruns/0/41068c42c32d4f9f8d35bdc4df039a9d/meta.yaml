@@ -1,0 +1,15 @@
+artifact_uri: file:///home/asini/Workspace/Enseignement/M2/MLOps/e2e-mlops/mlruns/0/41068c42c32d4f9f8d35bdc4df039a9d/artifacts
+end_time: 1705251449441
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 41068c42c32d4f9f8d35bdc4df039a9d
+run_name: caring-shrew-223
+run_uuid: 41068c42c32d4f9f8d35bdc4df039a9d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705251439186
+status: 3
+tags: []
+user_id: Sonex

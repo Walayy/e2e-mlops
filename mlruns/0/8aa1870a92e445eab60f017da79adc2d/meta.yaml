@@ -1,0 +1,15 @@
+artifact_uri: file:///home/asini/Workspace/Enseignement/M2/MLOps/e2e-mlops/mlruns/0/8aa1870a92e445eab60f017da79adc2d/artifacts
+end_time: 1705254498645
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8aa1870a92e445eab60f017da79adc2d
+run_name: incongruous-cat-871
+run_uuid: 8aa1870a92e445eab60f017da79adc2d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705254495781
+status: 3
+tags: []
+user_id: Sonex

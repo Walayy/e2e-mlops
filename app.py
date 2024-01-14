@@ -22,21 +22,17 @@ def index():
     if request.method == 'POST':
         try:
             #  reading the inputs given by the user
-            fixed_acidity =float(request.form['fixed_acidity'])
-            volatile_acidity =float(request.form['volatile_acidity'])
-            citric_acid =float(request.form['citric_acid'])
-            residual_sugar =float(request.form['residual_sugar'])
-            chlorides =float(request.form['chlorides'])
-            free_sulfur_dioxide =float(request.form['free_sulfur_dioxide'])
-            total_sulfur_dioxide =float(request.form['total_sulfur_dioxide'])
-            density =float(request.form['density'])
-            pH =float(request.form['pH'])
-            sulphates =float(request.form['sulphates'])
-            alcohol =float(request.form['alcohol'])
+            nature_mutation =int(request.form['Nature mutation'])
+            code_postal =int(request.form['Code postal'])
+            nombre_lots =int(request.form['Nombre de lots'])
+            code_type_local =float(request.form['code type local'])
+            surface_reelle_bati =float(request.form['surface reelle bati'])
+            nombre_pieces =float(request.form['Nombre pieces principales'])
+            surface =float(request.form['Surface terrain'])
        
          
-            data = [fixed_acidity,volatile_acidity,citric_acid,residual_sugar,chlorides,free_sulfur_dioxide,total_sulfur_dioxide,density,pH,sulphates,alcohol]
-            data = np.array(data).reshape(1, 11)
+            data = [nature_mutation,code_postal,nombre_lots,code_type_local,surface_reelle_bati,nombre_pieces,surface]
+            data = np.array(data).reshape(1, 7)
             
             predict = PredictPipeline()
             predict = predict.predict(data)
