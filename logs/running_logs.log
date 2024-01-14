@@ -844,3 +844,186 @@ x======x]
 [2023-10-26 18:40:37,236:INFO: _internal: 172.18.206.135 - - [26/Oct/2023 18:40:37] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
 [2023-10-26 18:40:37,237:INFO: _internal: 172.18.206.135 - - [26/Oct/2023 18:40:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
 [2023-10-26 18:40:37,264:INFO: _internal: 172.18.206.135 - - [26/Oct/2023 18:40:37] "[33mGET /static/assets/img/wine.gif HTTP/1.1[0m" 404 -]
+[2024-01-11 18:23:43,603:INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.18.41.74:8080]
+[2024-01-11 18:23:43,604:INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-01-11 18:23:50,095:INFO: _internal: 127.0.0.1 - - [11/Jan/2024 18:23:50] "GET / HTTP/1.1" 200 -]
+[2024-01-11 18:23:50,161:INFO: _internal: 127.0.0.1 - - [11/Jan/2024 18:23:50] "GET /static/css2/nunito-font.css HTTP/1.1" 200 -]
+[2024-01-11 18:23:50,161:INFO: _internal: 127.0.0.1 - - [11/Jan/2024 18:23:50] "GET /static/css/styles.css HTTP/1.1" 200 -]
+[2024-01-11 18:23:50,163:INFO: _internal: 127.0.0.1 - - [11/Jan/2024 18:23:50] "GET /static/css2/style.css HTTP/1.1" 200 -]
+[2024-01-11 18:23:50,164:INFO: _internal: 127.0.0.1 - - [11/Jan/2024 18:23:50] "GET /static/js/scripts.js HTTP/1.1" 200 -]
+[2024-01-11 18:23:50,478:INFO: _internal: 127.0.0.1 - - [11/Jan/2024 18:23:50] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2024-01-11 18:23:50,479:INFO: _internal: 127.0.0.1 - - [11/Jan/2024 18:23:50] "GET /static/assets/img/form-v9.jpg HTTP/1.1" 200 -]
+[2024-01-11 18:23:50,514:INFO: _internal: 127.0.0.1 - - [11/Jan/2024 18:23:50] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2024-01-11 18:23:50,562:INFO: _internal: 127.0.0.1 - - [11/Jan/2024 18:23:50] "GET /static/assets/favicon.ico HTTP/1.1" 200 -]
+[2024-01-11 18:26:02,020:INFO: main: >>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-11 18:26:02,031:INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-01-11 18:26:02,044:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-11 18:26:02,063:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-11 18:26:02,070:INFO: common: created directory at: artifacts]
+[2024-01-11 18:26:02,071:INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-11 18:26:26,206:INFO: data_ingestion: artifacts/data_ingestion/valeursfoncieres-2023.txt download! with following info: 
+server: nginx
+date: Thu, 11 Jan 2024 17:26:02 GMT
+content-type: text/plain
+content-length: 204675869
+last-modified: Tue, 10 Oct 2023 09:33:19 GMT
+vary: Accept-Encoding
+etag: "65251a5f-c331b1d"
+expires: Sat, 10 Feb 2024 17:26:02 GMT
+cache-control: max-age=2592000
+content-disposition: attachment
+pragma: public
+cache-control: public
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+access-control-allow-origin: *
+access-control-allow-methods: GET, OPTIONS
+access-control-allow-headers: Origin,Authorization,Accept,DNT,User-Agent,If-Modified-Since,Cache-Control,Content-Type,Range
+access-control-allow-credentials: true
+accept-ranges: bytes
+connection: close
+
+]
+[2024-01-11 18:26:26,211:ERROR: main: File is not a zip file]
+Traceback (most recent call last):
+  File "main.py", line 20, in <module>
+    data_ingestion.main()
+  File "/info/etu/m2/s190273/Documents/mlops/e2e-mlops/src/mlProject/pipeline/stage_01_data_ingestion.py", line 17, in main
+    data_ingestion.extract_zip_file()
+  File "/info/etu/m2/s190273/Documents/mlops/e2e-mlops/src/mlProject/components/data_ingestion.py", line 29, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file,'r') as zip_ref:
+  File "/info/etu/m2/s190273/miniconda3/envs/mlproj/lib/python3.8/zipfile.py", line 1269, in __init__
+    self._RealGetContents()
+  File "/info/etu/m2/s190273/miniconda3/envs/mlproj/lib/python3.8/zipfile.py", line 1336, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2024-01-11 18:36:20,610:INFO: main: >>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-11 18:36:20,621:INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-01-11 18:36:20,625:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-11 18:36:20,638:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-11 18:36:20,641:INFO: common: created directory at: artifacts]
+[2024-01-11 18:36:20,642:INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-11 18:36:20,642:INFO: data_ingestion: File already exists of size : ~ 199879 KB]
+[2024-01-11 18:36:20,676:ERROR: main: File is not a zip file]
+Traceback (most recent call last):
+  File "main.py", line 20, in <module>
+    data_ingestion.main()
+  File "/info/etu/m2/s190273/Documents/mlops/e2e-mlops/src/mlProject/pipeline/stage_01_data_ingestion.py", line 17, in main
+    data_ingestion.extract_zip_file()
+  File "/info/etu/m2/s190273/Documents/mlops/e2e-mlops/src/mlProject/components/data_ingestion.py", line 29, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file,'r') as zip_ref:
+  File "/info/etu/m2/s190273/miniconda3/envs/mlproj/lib/python3.8/zipfile.py", line 1269, in __init__
+    self._RealGetContents()
+  File "/info/etu/m2/s190273/miniconda3/envs/mlproj/lib/python3.8/zipfile.py", line 1336, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2024-01-11 18:37:08,352:INFO: main: >>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-11 18:37:08,357:INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-01-11 18:37:08,358:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-11 18:37:08,364:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-11 18:37:08,365:INFO: common: created directory at: artifacts]
+[2024-01-11 18:37:08,366:INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-11 18:37:08,367:INFO: data_ingestion: File already exists of size : ~ 199879 KB]
+[2024-01-11 18:37:08,368:INFO: main: >>>>> stage Data Ingestion stage complated <<<<<
+
+x======x]
+[2024-01-11 18:37:08,368:INFO: main: >>>> stage Data Validation stage started <<<<<<]
+[2024-01-11 18:37:08,371:INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-01-11 18:37:08,372:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-11 18:37:08,377:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-11 18:37:08,378:INFO: common: created directory at: artifacts]
+[2024-01-11 18:37:08,378:INFO: common: created directory at: artifacts/data_validation]
+[2024-01-11 18:37:08,390:ERROR: main: Error tokenizing data. C error: Expected 2 fields in line 64, saw 3
+]
+Traceback (most recent call last):
+  File "main.py", line 35, in <module>
+    data_validation.main()
+  File "/info/etu/m2/s190273/Documents/mlops/e2e-mlops/src/mlProject/pipeline/stage_02_data_validation.py", line 17, in main
+    data_validation.validation_all_columns()
+  File "/info/etu/m2/s190273/Documents/mlops/e2e-mlops/src/mlProject/components/data_validation.py", line 34, in validation_all_columns
+    raise e
+  File "/info/etu/m2/s190273/Documents/mlops/e2e-mlops/src/mlProject/components/data_validation.py", line 19, in validation_all_columns
+    data= pd.read_csv(self.config.unzip_data_dir)
+  File "/info/etu/m2/s190273/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/info/etu/m2/s190273/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 583, in _read
+    return parser.read(nrows)
+  File "/info/etu/m2/s190273/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1704, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+  File "/info/etu/m2/s190273/.local/lib/python3.8/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 234, in read
+    chunks = self._reader.read_low_memory(nrows)
+  File "pandas/_libs/parsers.pyx", line 814, in pandas._libs.parsers.TextReader.read_low_memory
+  File "pandas/_libs/parsers.pyx", line 875, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 850, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas/_libs/parsers.pyx", line 861, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "pandas/_libs/parsers.pyx", line 2029, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Expected 2 fields in line 64, saw 3
+
+[2024-01-11 18:47:20,749:INFO: main: >>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-11 18:47:20,759:INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-01-11 18:47:20,762:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-11 18:47:20,774:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-11 18:47:20,777:INFO: common: created directory at: artifacts]
+[2024-01-11 18:47:20,778:INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-11 18:47:20,779:INFO: data_ingestion: File already exists of size : ~ 199879 KB]
+[2024-01-11 18:47:20,780:INFO: main: >>>>> stage Data Ingestion stage complated <<<<<
+
+x======x]
+[2024-01-11 18:47:20,780:INFO: main: >>>> stage Data Validation stage started <<<<<<]
+[2024-01-11 18:47:20,784:INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-01-11 18:47:20,785:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-11 18:47:20,792:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-11 18:47:20,793:INFO: common: created directory at: artifacts]
+[2024-01-11 18:47:20,794:INFO: common: created directory at: artifacts/data_validation]
+[2024-01-11 18:47:20,795:ERROR: main: Passing a bool to header is invalid. Use header=None for no header or header=int or list-like of ints to specify the row(s) making up the column names]
+Traceback (most recent call last):
+  File "main.py", line 35, in <module>
+    data_validation.main()
+  File "/info/etu/m2/s190273/Documents/mlops/e2e-mlops/src/mlProject/pipeline/stage_02_data_validation.py", line 17, in main
+    data_validation.validation_all_columns()
+  File "/info/etu/m2/s190273/Documents/mlops/e2e-mlops/src/mlProject/components/data_validation.py", line 34, in validation_all_columns
+    raise e
+  File "/info/etu/m2/s190273/Documents/mlops/e2e-mlops/src/mlProject/components/data_validation.py", line 19, in validation_all_columns
+    data= pd.read_csv(self.config.unzip_data_dir, header=True, sep='|')
+  File "/info/etu/m2/s190273/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/info/etu/m2/s190273/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/info/etu/m2/s190273/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1401, in __init__
+    self.options, self.engine = self._clean_options(options, engine)
+  File "/info/etu/m2/s190273/.local/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1571, in _clean_options
+    validate_header_arg(options["header"])
+  File "/info/etu/m2/s190273/.local/lib/python3.8/site-packages/pandas/io/common.py", line 208, in validate_header_arg
+    raise TypeError(
+TypeError: Passing a bool to header is invalid. Use header=None for no header or header=int or list-like of ints to specify the row(s) making up the column names
+[2024-01-14 15:21:36,979:INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.33:8080]
+[2024-01-14 15:21:36,980:INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-01-14 15:21:43,240:ERROR: _internal: 192.168.1.33 - - [14/Jan/2024 15:21:43] code 400, message Bad request version ('êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')]
+[2024-01-14 15:21:43,240:INFO: _internal: 192.168.1.33 - - [14/Jan/2024 15:21:43] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03WwuÛýb \x80ï^ðm\x10X\x19n²*E+ý&j£R²\x97\x81\x99kcõ ¾\x0d\x94æoÝ\x1a<³\x1dÀtrÑ:x&s\x11&¿557î\x01V°û|Pè\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93[0m" HTTPStatus.BAD_REQUEST -]
+[2024-01-14 15:21:43,241:ERROR: _internal: 192.168.1.33 - - [14/Jan/2024 15:21:43] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03OÉÇÑ7\x04±joâz¨Ô_\x0fMÙ.\x88\x8bs´')]
+[2024-01-14 15:21:43,241:INFO: _internal: 192.168.1.33 - - [14/Jan/2024 15:21:43] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03OÉÇÑ7\x04±joâz¨Ô_\x0fMÙ.\x88\x8bs´[0m" HTTPStatus.BAD_REQUEST -]
+[2024-01-14 15:21:46,221:INFO: _internal: 127.0.0.1 - - [14/Jan/2024 15:21:46] "GET / HTTP/1.1" 200 -]
+[2024-01-14 15:21:46,346:INFO: _internal: 127.0.0.1 - - [14/Jan/2024 15:21:46] "GET /static/css/styles.css HTTP/1.1" 200 -]
+[2024-01-14 15:21:46,350:INFO: _internal: 127.0.0.1 - - [14/Jan/2024 15:21:46] "GET /static/css2/nunito-font.css HTTP/1.1" 200 -]
+[2024-01-14 15:21:46,353:INFO: _internal: 127.0.0.1 - - [14/Jan/2024 15:21:46] "GET /static/css2/style.css HTTP/1.1" 200 -]
+[2024-01-14 15:21:46,353:INFO: _internal: 127.0.0.1 - - [14/Jan/2024 15:21:46] "GET /static/js/scripts.js HTTP/1.1" 200 -]
+[2024-01-14 15:21:46,896:INFO: _internal: 127.0.0.1 - - [14/Jan/2024 15:21:46] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2024-01-14 15:21:46,897:INFO: _internal: 127.0.0.1 - - [14/Jan/2024 15:21:46] "GET /static/assets/img/form-v9.jpg HTTP/1.1" 200 -]
+[2024-01-14 15:21:46,924:INFO: _internal: 127.0.0.1 - - [14/Jan/2024 15:21:46] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2024-01-14 15:21:47,092:INFO: _internal: 127.0.0.1 - - [14/Jan/2024 15:21:47] "GET /static/assets/favicon.ico HTTP/1.1" 200 -]
+[2024-01-14 15:21:51,379:INFO: _internal: 127.0.0.1 - - [14/Jan/2024 15:21:51] "GET / HTTP/1.1" 200 -]
+[2024-01-14 15:21:51,417:INFO: _internal: 127.0.0.1 - - [14/Jan/2024 15:21:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2024-01-14 15:21:51,419:INFO: _internal: 127.0.0.1 - - [14/Jan/2024 15:21:51] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2024-01-14 15:21:51,421:INFO: _internal: 127.0.0.1 - - [14/Jan/2024 15:21:51] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2024-01-14 15:21:51,423:INFO: _internal: 127.0.0.1 - - [14/Jan/2024 15:21:51] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2024-01-14 15:21:51,587:INFO: _internal: 127.0.0.1 - - [14/Jan/2024 15:21:51] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2024-01-14 15:21:51,588:INFO: _internal: 127.0.0.1 - - [14/Jan/2024 15:21:51] "[36mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 304 -]
+[2024-01-14 15:21:51,619:INFO: _internal: 127.0.0.1 - - [14/Jan/2024 15:21:51] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2024-01-14 15:21:51,727:INFO: _internal: 127.0.0.1 - - [14/Jan/2024 15:21:51] "[36mGET /static/assets/favicon.ico HTTP/1.1[0m" 304 -]
