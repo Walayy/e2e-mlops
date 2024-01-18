@@ -22,17 +22,25 @@ def index():
     if request.method == 'POST':
         try:
             #  reading the inputs given by the user
-            nature_mutation =int(request.form['Nature mutation'])
-            code_postal =int(request.form['Code postal'])
-            nombre_lots =int(request.form['Nombre de lots'])
-            code_type_local =float(request.form['code type local'])
-            surface_reelle_bati =float(request.form['surface reelle bati'])
-            nombre_pieces =float(request.form['Nombre pieces principales'])
-            surface =float(request.form['Surface terrain'])
-       
+            print("test")
+            nature_mutation =int(request.form['nature_mutation'])
+            print("1")
+            code_postal =int(request.form['code_postal'])
+            print("2")
+            nombre_lots =int(request.form['nombre_lots'])
+            print("3")
+            code_type_local =float(request.form['code_type_local'])
+            print("4")
+            surface_reelle_bati =float(request.form['surface_reelle_bati'])
+            print("5")
+            nombre_pieces =float(request.form['nombre_pieces'])
+            print("6")
+            surface =float(request.form['surface'])
          
             data = [nature_mutation,code_postal,nombre_lots,code_type_local,surface_reelle_bati,nombre_pieces,surface]
             data = np.array(data).reshape(1, 7)
+
+            print(data)
             
             predict = PredictPipeline()
             predict = predict.predict(data)
@@ -47,5 +55,5 @@ def index():
 
 
 if __name__=="__main__":
-    # app.run(host="0.0.0.0",port= 8080, debug=True)
-    app.run(host="0.0.0.0",port= 8080)
+    app.run(host="0.0.0.0",port= 8080, debug=True)
+    #app.run(host="0.0.0.0",port= 8080)

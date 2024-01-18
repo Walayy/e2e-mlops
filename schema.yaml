@@ -8,7 +8,7 @@ COLUMNS:
   5 Articles CGI: string
   No disposition: string
   Date mutation: date
-  Nature mutation: string
+  Nature mutation: int
   Valeur fonciere: float
   No voie: string
   B/T/Q: string
