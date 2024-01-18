@@ -1,0 +1,15 @@
+artifact_uri: file:///home/asini/Workspace/Enseignement/M2/MLOps/e2e-mlops/mlruns/0/229d728cd6b1431d9b53f8dea701f07e/artifacts
+end_time: 1698337914951
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 229d728cd6b1431d9b53f8dea701f07e
+run_name: sincere-shad-865
+run_uuid: 229d728cd6b1431d9b53f8dea701f07e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698337913719
+status: 3
+tags: []
+user_id: asini

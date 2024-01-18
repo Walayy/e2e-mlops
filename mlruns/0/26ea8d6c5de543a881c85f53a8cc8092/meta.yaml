@@ -1,0 +1,15 @@
+artifact_uri: file:///home/asini/Workspace/Enseignement/M2/MLOps/e2e-mlops/mlruns/0/26ea8d6c5de543a881c85f53a8cc8092/artifacts
+end_time: 1698319419769
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 26ea8d6c5de543a881c85f53a8cc8092
+run_name: enthused-stork-347
+run_uuid: 26ea8d6c5de543a881c85f53a8cc8092
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698319418517
+status: 3
+tags: []
+user_id: asini
