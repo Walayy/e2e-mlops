@@ -1005,10 +1005,10 @@ TypeError: Passing a bool to header is invalid. Use header=None for no header or
  * Running on http://127.0.0.1:8080
  * Running on http://192.168.1.33:8080]
 [2024-01-14 15:21:36,980:INFO: _internal: [33mPress CTRL+C to quit[0m]
-[2024-01-14 15:21:43,240:ERROR: _internal: 192.168.1.33 - - [14/Jan/2024 15:21:43] code 400, message Bad request version ('êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')]
-[2024-01-14 15:21:43,240:INFO: _internal: 192.168.1.33 - - [14/Jan/2024 15:21:43] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03WwuÛıb \x80ï^ğm\x10X\x19n²*E+ı&j£R²\x97\x81\x99kcõ ¾\x0d\x94æoİ\x1a<³\x1dÀtrÑ:x&s\x11&¿557î\x01V°û|Pè\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93[0m" HTTPStatus.BAD_REQUEST -]
-[2024-01-14 15:21:43,241:ERROR: _internal: 192.168.1.33 - - [14/Jan/2024 15:21:43] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03OÉÇÑ7\x04±joâz¨Ô_\x0fMÙ.\x88\x8bs´')]
-[2024-01-14 15:21:43,241:INFO: _internal: 192.168.1.33 - - [14/Jan/2024 15:21:43] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03OÉÇÑ7\x04±joâz¨Ô_\x0fMÙ.\x88\x8bs´[0m" HTTPStatus.BAD_REQUEST -]
+[2024-01-14 15:21:43,240:ERROR: _internal: 192.168.1.33 - - [14/Jan/2024 15:21:43] code 400, message Bad request version ('ï¿½ï¿½\x13\x01\x13\x02\x13\x03ï¿½+ï¿½/ï¿½,ï¿½0Ì©Ì¨ï¿½\x13ï¿½\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93')]
+[2024-01-14 15:21:43,240:INFO: _internal: 192.168.1.33 - - [14/Jan/2024 15:21:43] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ï¿½\x03\x03Wwuï¿½ï¿½bï¿½\x80ï¿½^ï¿½m\x10X\x19nï¿½*E+ï¿½&jï¿½Rï¿½\x97\x81\x99kcï¿½ ï¿½\x0d\x94ï¿½oï¿½\x1a<ï¿½\x1dï¿½trï¿½:x&s\x11&ï¿½557ï¿½\x01Vï¿½ï¿½|Pï¿½\x00 ï¿½ï¿½\x13\x01\x13\x02\x13\x03ï¿½+ï¿½/ï¿½,ï¿½0Ì©Ì¨ï¿½\x13ï¿½\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93[0m" HTTPStatus.BAD_REQUEST -]
+[2024-01-14 15:21:43,241:ERROR: _internal: 192.168.1.33 - - [14/Jan/2024 15:21:43] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ï¿½\x03\x03Oï¿½ï¿½ï¿½7\x04ï¿½joï¿½zï¿½ï¿½_\x0fMï¿½.\x88\x8bsï¿½')]
+[2024-01-14 15:21:43,241:INFO: _internal: 192.168.1.33 - - [14/Jan/2024 15:21:43] "[35m[1m\x16\x03\x01\x02\x00\x01\x00\x01ï¿½\x03\x03Oï¿½ï¿½ï¿½7\x04ï¿½joï¿½zï¿½ï¿½_\x0fMï¿½.\x88\x8bsï¿½[0m" HTTPStatus.BAD_REQUEST -]
 [2024-01-14 15:21:46,221:INFO: _internal: 127.0.0.1 - - [14/Jan/2024 15:21:46] "GET / HTTP/1.1" 200 -]
 [2024-01-14 15:21:46,346:INFO: _internal: 127.0.0.1 - - [14/Jan/2024 15:21:46] "GET /static/css/styles.css HTTP/1.1" 200 -]
 [2024-01-14 15:21:46,350:INFO: _internal: 127.0.0.1 - - [14/Jan/2024 15:21:46] "GET /static/css2/nunito-font.css HTTP/1.1" 200 -]
@@ -2661,7 +2661,7 @@ x======x]
 [2024-01-14 17:33:57,625:INFO: common: yaml file: schema.yaml loaded successfully]
 [2024-01-14 17:33:57,626:INFO: common: created directory at: artifacts]
 [2024-01-14 17:33:57,626:INFO: common: created directory at: artifacts/model_trainer]
-[2024-01-14 17:33:59,731:ERROR: main: could not convert string to float: "Vente en l'état futur d'achèvement"]
+[2024-01-14 17:33:59,731:ERROR: main: could not convert string to float: "Vente en l'ï¿½tat futur d'achï¿½vement"]
 Traceback (most recent call last):
   File "C:\Users\shyri\Dev\e2e-mlops\main.py", line 66, in <module>
     model_trainer.main()
@@ -2683,7 +2683,7 @@ Traceback (most recent call last):
     array = numpy.asarray(array, order=order, dtype=dtype)
   File "C:\Users\shyri\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\generic.py", line 1998, in __array__
     arr = np.asarray(values, dtype=dtype)
-ValueError: could not convert string to float: "Vente en l'état futur d'achèvement"
+ValueError: could not convert string to float: "Vente en l'ï¿½tat futur d'achï¿½vement"
 [2024-01-14 17:37:44,217:INFO: main: >>>> stage Data Ingestion stage started <<<<<<]
 [2024-01-14 17:37:44,219:INFO: common: yaml file: config\config.yaml loaded successfully]
 [2024-01-14 17:37:44,220:INFO: common: yaml file: params.yaml loaded successfully]
@@ -2718,7 +2718,7 @@ x======x]
 [2024-01-14 17:37:52,180:INFO: common: yaml file: schema.yaml loaded successfully]
 [2024-01-14 17:37:52,181:INFO: common: created directory at: artifacts]
 [2024-01-14 17:37:52,181:INFO: common: created directory at: artifacts/model_trainer]
-[2024-01-14 17:37:54,092:ERROR: main: could not convert string to float: "Vente en l'état futur d'achèvement"]
+[2024-01-14 17:37:54,092:ERROR: main: could not convert string to float: "Vente en l'ï¿½tat futur d'achï¿½vement"]
 Traceback (most recent call last):
   File "C:\Users\shyri\Dev\e2e-mlops\main.py", line 66, in <module>
     model_trainer.main()
@@ -2740,7 +2740,7 @@ Traceback (most recent call last):
     array = numpy.asarray(array, order=order, dtype=dtype)
   File "C:\Users\shyri\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\generic.py", line 1998, in __array__
     arr = np.asarray(values, dtype=dtype)
-ValueError: could not convert string to float: "Vente en l'état futur d'achèvement"
+ValueError: could not convert string to float: "Vente en l'ï¿½tat futur d'achï¿½vement"
 [2024-01-14 17:40:35,032:INFO: main: >>>> stage Data Ingestion stage started <<<<<<]
 [2024-01-14 17:40:35,035:INFO: common: yaml file: config\config.yaml loaded successfully]
 [2024-01-14 17:40:35,035:INFO: common: yaml file: params.yaml loaded successfully]
@@ -2775,7 +2775,7 @@ x======x]
 [2024-01-14 17:40:42,678:INFO: common: yaml file: schema.yaml loaded successfully]
 [2024-01-14 17:40:42,679:INFO: common: created directory at: artifacts]
 [2024-01-14 17:40:42,680:INFO: common: created directory at: artifacts/model_trainer]
-[2024-01-14 17:40:44,586:ERROR: main: could not convert string to float: "Vente en l'état futur d'achèvement"]
+[2024-01-14 17:40:44,586:ERROR: main: could not convert string to float: "Vente en l'ï¿½tat futur d'achï¿½vement"]
 Traceback (most recent call last):
   File "C:\Users\shyri\Dev\e2e-mlops\main.py", line 66, in <module>
     model_trainer.main()
@@ -2797,7 +2797,7 @@ Traceback (most recent call last):
     array = numpy.asarray(array, order=order, dtype=dtype)
   File "C:\Users\shyri\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\generic.py", line 1998, in __array__
     arr = np.asarray(values, dtype=dtype)
-ValueError: could not convert string to float: "Vente en l'état futur d'achèvement"
+ValueError: could not convert string to float: "Vente en l'ï¿½tat futur d'achï¿½vement"
 [2024-01-14 17:42:21,604:INFO: main: >>>> stage Data Ingestion stage started <<<<<<]
 [2024-01-14 17:42:21,605:INFO: common: yaml file: config\config.yaml loaded successfully]
 [2024-01-14 17:42:21,607:INFO: common: yaml file: params.yaml loaded successfully]
@@ -2896,7 +2896,7 @@ x======x]
 [2024-01-14 17:44:16,956:INFO: common: created directory at: artifacts]
 [2024-01-14 17:44:16,957:INFO: common: created directory at: artifacts/model_trainer]
 [2024-01-14 17:44:18,144:ERROR: main: Input X contains NaN.
-ElasticNet does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values]
+RandomForestRegressor does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values]
 Traceback (most recent call last):
   File "C:\Users\shyri\Dev\e2e-mlops\main.py", line 66, in <module>
     model_trainer.main()
@@ -2919,7 +2919,7 @@ Traceback (most recent call last):
   File "C:\Users\shyri\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 173, in _assert_all_finite_element_wise
     raise ValueError(msg_err)
 ValueError: Input X contains NaN.
-ElasticNet does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+RandomForestRegressor does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
 [2024-01-14 17:46:47,383:INFO: main: >>>> stage Data Ingestion stage started <<<<<<]
 [2024-01-14 17:46:47,387:INFO: common: yaml file: config\config.yaml loaded successfully]
 [2024-01-14 17:46:47,388:INFO: common: yaml file: params.yaml loaded successfully]
@@ -2958,7 +2958,7 @@ x======x]
 [2024-01-14 17:47:07,353:INFO: common: created directory at: artifacts]
 [2024-01-14 17:47:07,353:INFO: common: created directory at: artifacts/model_trainer]
 [2024-01-14 17:47:09,476:ERROR: main: Input X contains NaN.
-ElasticNet does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values]
+RandomForestRegressor does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values]
 Traceback (most recent call last):
   File "C:\Users\shyri\Dev\e2e-mlops\main.py", line 66, in <module>
     model_trainer.main()
@@ -2981,7 +2981,7 @@ Traceback (most recent call last):
   File "C:\Users\shyri\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 173, in _assert_all_finite_element_wise
     raise ValueError(msg_err)
 ValueError: Input X contains NaN.
-ElasticNet does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+RandomForestRegressor does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
 [2024-01-14 17:49:45,558:INFO: main: >>>> stage Data Ingestion stage started <<<<<<]
 [2024-01-14 17:49:45,560:INFO: common: yaml file: config\config.yaml loaded successfully]
 [2024-01-14 17:49:45,561:INFO: common: yaml file: params.yaml loaded successfully]
@@ -3020,7 +3020,7 @@ x======x]
 [2024-01-14 17:49:58,965:INFO: common: created directory at: artifacts]
 [2024-01-14 17:49:58,965:INFO: common: created directory at: artifacts/model_trainer]
 [2024-01-14 17:50:00,022:ERROR: main: Input X contains NaN.
-ElasticNet does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values]
+RandomForestRegressor does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values]
 Traceback (most recent call last):
   File "C:\Users\shyri\Dev\e2e-mlops\main.py", line 66, in <module>
     model_trainer.main()
@@ -3043,7 +3043,7 @@ Traceback (most recent call last):
   File "C:\Users\shyri\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 173, in _assert_all_finite_element_wise
     raise ValueError(msg_err)
 ValueError: Input X contains NaN.
-ElasticNet does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+RandomForestRegressor does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
 [2024-01-14 17:50:51,426:INFO: main: >>>> stage Data Ingestion stage started <<<<<<]
 [2024-01-14 17:50:51,429:INFO: common: yaml file: config\config.yaml loaded successfully]
 [2024-01-14 17:50:51,431:INFO: common: yaml file: params.yaml loaded successfully]
@@ -3082,7 +3082,7 @@ x======x]
 [2024-01-14 17:51:05,134:INFO: common: created directory at: artifacts]
 [2024-01-14 17:51:05,135:INFO: common: created directory at: artifacts/model_trainer]
 [2024-01-14 17:51:06,178:ERROR: main: Input X contains NaN.
-ElasticNet does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values]
+RandomForestRegressor does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values]
 Traceback (most recent call last):
   File "C:\Users\shyri\Dev\e2e-mlops\main.py", line 66, in <module>
     model_trainer.main()
@@ -3105,7 +3105,7 @@ Traceback (most recent call last):
   File "C:\Users\shyri\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 173, in _assert_all_finite_element_wise
     raise ValueError(msg_err)
 ValueError: Input X contains NaN.
-ElasticNet does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+RandomForestRegressor does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
 [2024-01-14 17:52:09,780:INFO: main: >>>> stage Data Ingestion stage started <<<<<<]
 [2024-01-14 17:52:09,783:INFO: common: yaml file: config\config.yaml loaded successfully]
 [2024-01-14 17:52:09,783:INFO: common: yaml file: params.yaml loaded successfully]
@@ -3144,7 +3144,7 @@ x======x]
 [2024-01-14 17:52:23,767:INFO: common: created directory at: artifacts]
 [2024-01-14 17:52:23,767:INFO: common: created directory at: artifacts/model_trainer]
 [2024-01-14 17:52:24,844:ERROR: main: Input X contains NaN.
-ElasticNet does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values]
+RandomForestRegressor does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values]
 Traceback (most recent call last):
   File "C:\Users\shyri\Dev\e2e-mlops\main.py", line 66, in <module>
     model_trainer.main()
@@ -3167,7 +3167,7 @@ Traceback (most recent call last):
   File "C:\Users\shyri\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\validation.py", line 173, in _assert_all_finite_element_wise
     raise ValueError(msg_err)
 ValueError: Input X contains NaN.
-ElasticNet does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+RandomForestRegressor does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
 [2024-01-14 17:55:44,673:INFO: main: >>>> stage Data Ingestion stage started <<<<<<]
 [2024-01-14 17:55:44,675:INFO: common: yaml file: config\config.yaml loaded successfully]
 [2024-01-14 17:55:44,676:INFO: common: yaml file: params.yaml loaded successfully]
@@ -4479,3 +4479,2471 @@ x======x]
 [2024-01-18 10:50:32,087:INFO: _internal: 127.0.0.1 - - [18/Jan/2024 10:50:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
 [2024-01-18 10:50:32,088:INFO: _internal: 127.0.0.1 - - [18/Jan/2024 10:50:32] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
 [2024-01-18 10:50:32,152:INFO: _internal: 127.0.0.1 - - [18/Jan/2024 10:50:32] "[33mGET /static/assets/img/wine.gif HTTP/1.1[0m" 404 -]
+[2024-01-21 16:59:45,407:INFO: main: >>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-21 16:59:45,419:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 16:59:45,422:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 16:59:45,448:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 16:59:45,450:INFO: common: created directory at: artifacts]
+[2024-01-21 16:59:45,451:INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-21 17:00:01,042:INFO: data_ingestion: artifacts/data_ingestion/valeursfoncieres-2023.txt download! with following info: 
+server: nginx
+date: Sun, 21 Jan 2024 15:59:47 GMT
+content-type: text/plain
+content-length: 204675869
+last-modified: Tue, 10 Oct 2023 09:33:19 GMT
+vary: Accept-Encoding
+etag: "65251a5f-c331b1d"
+expires: Tue, 20 Feb 2024 15:59:47 GMT
+cache-control: max-age=2592000
+content-disposition: attachment
+pragma: public
+cache-control: public
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+access-control-allow-origin: *
+access-control-allow-methods: GET, OPTIONS
+access-control-allow-headers: Origin,Authorization,Accept,DNT,User-Agent,If-Modified-Since,Cache-Control,Content-Type,Range
+access-control-allow-credentials: true
+accept-ranges: bytes
+connection: close
+
+]
+[2024-01-21 17:00:01,050:INFO: main: >>>>> stage Data Ingestion stage complated <<<<<
+
+x======x]
+[2024-01-21 17:00:01,050:INFO: main: >>>> stage Data Validation stage started <<<<<<]
+[2024-01-21 17:00:01,061:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:00:01,065:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:00:01,089:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:00:01,092:INFO: common: created directory at: artifacts]
+[2024-01-21 17:00:01,094:INFO: common: created directory at: artifacts/data_validation]
+[2024-01-21 17:00:14,263:INFO: main: >>>>> stage Data Validation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:00:14,264:INFO: main: >>>> stage Data Transformation stage started <<<<<<]
+[2024-01-21 17:00:14,276:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:00:14,280:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:00:14,302:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:00:14,305:INFO: common: created directory at: artifacts]
+[2024-01-21 17:00:14,306:INFO: common: created directory at: artifacts/data_transformation]
+[2024-01-21 17:00:26,441:INFO: data_transformation: Splited data into training and test sets]
+[2024-01-21 17:00:26,441:INFO: data_transformation: (349427, 8)]
+[2024-01-21 17:00:26,441:INFO: data_transformation: (116476, 8)]
+[2024-01-21 17:00:26,450:INFO: main: >>>>> stage Data Transformation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:00:26,450:INFO: main: >>>> stage Model Trainer stage started <<<<<<]
+[2024-01-21 17:00:26,459:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:00:26,461:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:00:26,471:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:00:26,474:INFO: common: created directory at: artifacts]
+[2024-01-21 17:00:26,475:INFO: common: created directory at: artifacts/model_trainer]
+[2024-01-21 17:00:27,127:INFO: main: >>>>> stage Model Trainer stage complated <<<<<
+
+x======x]
+[2024-01-21 17:00:27,128:INFO: main: >>>> stage Model Evaluation stage started <<<<<<]
+[2024-01-21 17:00:27,134:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:00:27,136:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:00:27,148:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:00:27,150:INFO: common: created directory at: artifacts]
+[2024-01-21 17:00:27,151:INFO: common: created directory at: artifacts/model_evaluation]
+[2024-01-21 17:00:27,713:INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-01-21 17:00:34,244:INFO: main: >>>>> stage Model Evaluation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:04:25,028:INFO: main: >>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-21 17:04:25,037:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:04:25,039:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:04:25,050:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:04:25,051:INFO: common: created directory at: artifacts]
+[2024-01-21 17:04:25,052:INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-21 17:04:25,053:INFO: data_ingestion: File already exists of size : ~ 199879 KB]
+[2024-01-21 17:04:25,053:INFO: main: >>>>> stage Data Ingestion stage complated <<<<<
+
+x======x]
+[2024-01-21 17:04:25,054:INFO: main: >>>> stage Data Validation stage started <<<<<<]
+[2024-01-21 17:04:25,060:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:04:25,062:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:04:25,077:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:04:25,079:INFO: common: created directory at: artifacts]
+[2024-01-21 17:04:25,080:INFO: common: created directory at: artifacts/data_validation]
+[2024-01-21 17:04:38,251:INFO: main: >>>>> stage Data Validation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:04:38,251:INFO: main: >>>> stage Data Transformation stage started <<<<<<]
+[2024-01-21 17:04:38,273:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:04:38,280:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:04:38,317:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:04:38,321:INFO: common: created directory at: artifacts]
+[2024-01-21 17:04:38,324:INFO: common: created directory at: artifacts/data_transformation]
+[2024-01-21 17:04:56,399:INFO: data_transformation: Splited data into training and test sets]
+[2024-01-21 17:04:56,400:INFO: data_transformation: (349427, 8)]
+[2024-01-21 17:04:56,400:INFO: data_transformation: (116476, 8)]
+[2024-01-21 17:04:56,409:INFO: main: >>>>> stage Data Transformation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:04:56,409:INFO: main: >>>> stage Model Trainer stage started <<<<<<]
+[2024-01-21 17:04:56,420:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:04:56,423:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:04:56,437:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:04:56,440:INFO: common: created directory at: artifacts]
+[2024-01-21 17:04:56,442:INFO: common: created directory at: artifacts/model_trainer]
+[2024-01-21 17:04:57,906:ERROR: main: 
+All the 10 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+10 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 915, in _fit
+    X, y = self._initialize(X, y)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 852, in _initialize
+    self.model_ = self._build_keras_model()
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 400, in _build_keras_model
+    final_build_fn = self._check_model_param()
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 325, in _check_model_param
+    raise TypeError(
+TypeError: ``model`` must be a callable, a Keras Model instance or None
+]
+Traceback (most recent call last):
+  File "main.py", line 66, in <module>
+    model_trainer.main()
+  File "c:\users\lulug\onedrive\documents\github\e2e-mlops\src\mlProject\pipeline\stage_04_model_trainer.py", line 18, in main
+    model_trainer.train()
+  File "c:\users\lulug\onedrive\documents\github\e2e-mlops\src\mlProject\components\model_trainer.py", line 36, in train
+    results = cross_val_score(estimator, train_x, train_y, cv=kfold, scoring='neg_mean_squared_error')
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 562, in cross_val_score
+    cv_results = cross_validate(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\utils\_param_validation.py", line 214, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 328, in cross_validate
+    _warn_or_raise_about_fit_failures(results, error_score)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 414, in _warn_or_raise_about_fit_failures
+    raise ValueError(all_fits_failed_message)
+ValueError: 
+All the 10 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+10 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 915, in _fit
+    X, y = self._initialize(X, y)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 852, in _initialize
+    self.model_ = self._build_keras_model()
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 400, in _build_keras_model
+    final_build_fn = self._check_model_param()
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 325, in _check_model_param
+    raise TypeError(
+TypeError: ``model`` must be a callable, a Keras Model instance or None
+
+[2024-01-21 17:06:12,301:INFO: main: >>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-21 17:06:12,308:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:06:12,310:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:06:12,322:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:06:12,324:INFO: common: created directory at: artifacts]
+[2024-01-21 17:06:12,324:INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-21 17:06:12,325:INFO: data_ingestion: File already exists of size : ~ 199879 KB]
+[2024-01-21 17:06:12,325:INFO: main: >>>>> stage Data Ingestion stage complated <<<<<
+
+x======x]
+[2024-01-21 17:06:12,326:INFO: main: >>>> stage Data Validation stage started <<<<<<]
+[2024-01-21 17:06:12,332:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:06:12,333:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:06:12,346:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:06:12,349:INFO: common: created directory at: artifacts]
+[2024-01-21 17:06:12,350:INFO: common: created directory at: artifacts/data_validation]
+[2024-01-21 17:06:20,897:INFO: main: >>>>> stage Data Validation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:06:20,898:INFO: main: >>>> stage Data Transformation stage started <<<<<<]
+[2024-01-21 17:06:20,907:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:06:20,909:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:06:20,929:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:06:20,930:INFO: common: created directory at: artifacts]
+[2024-01-21 17:06:20,932:INFO: common: created directory at: artifacts/data_transformation]
+[2024-01-21 17:06:35,830:INFO: data_transformation: Splited data into training and test sets]
+[2024-01-21 17:06:35,830:INFO: data_transformation: (349427, 8)]
+[2024-01-21 17:06:35,831:INFO: data_transformation: (116476, 8)]
+[2024-01-21 17:06:35,838:INFO: main: >>>>> stage Data Transformation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:06:35,839:INFO: main: >>>> stage Model Trainer stage started <<<<<<]
+[2024-01-21 17:06:35,848:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:06:35,851:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:06:35,865:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:06:35,869:INFO: common: created directory at: artifacts]
+[2024-01-21 17:06:35,870:INFO: common: created directory at: artifacts/model_trainer]
+[2024-01-21 17:06:36,836:ERROR: main: 
+All the 10 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+10 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 915, in _fit
+    X, y = self._initialize(X, y)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 852, in _initialize
+    self.model_ = self._build_keras_model()
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 400, in _build_keras_model
+    final_build_fn = self._check_model_param()
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 325, in _check_model_param
+    raise TypeError(
+TypeError: ``model`` must be a callable, a Keras Model instance or None
+]
+Traceback (most recent call last):
+  File "main.py", line 66, in <module>
+    model_trainer.main()
+  File "c:\users\lulug\onedrive\documents\github\e2e-mlops\src\mlProject\pipeline\stage_04_model_trainer.py", line 18, in main
+    model_trainer.train()
+  File "c:\users\lulug\onedrive\documents\github\e2e-mlops\src\mlProject\components\model_trainer.py", line 36, in train
+    results = cross_val_score(estimator, train_x, train_y.values.ravel(), cv=kfold, scoring='neg_mean_squared_error')
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 562, in cross_val_score
+    cv_results = cross_validate(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\utils\_param_validation.py", line 214, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 328, in cross_validate
+    _warn_or_raise_about_fit_failures(results, error_score)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 414, in _warn_or_raise_about_fit_failures
+    raise ValueError(all_fits_failed_message)
+ValueError: 
+All the 10 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+10 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 915, in _fit
+    X, y = self._initialize(X, y)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 852, in _initialize
+    self.model_ = self._build_keras_model()
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 400, in _build_keras_model
+    final_build_fn = self._check_model_param()
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 325, in _check_model_param
+    raise TypeError(
+TypeError: ``model`` must be a callable, a Keras Model instance or None
+
+[2024-01-21 17:08:05,415:INFO: main: >>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-21 17:08:05,419:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:08:05,420:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:08:05,429:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:08:05,430:INFO: common: created directory at: artifacts]
+[2024-01-21 17:08:05,430:INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-21 17:08:05,430:INFO: data_ingestion: File already exists of size : ~ 199879 KB]
+[2024-01-21 17:08:05,430:INFO: main: >>>>> stage Data Ingestion stage complated <<<<<
+
+x======x]
+[2024-01-21 17:08:05,430:INFO: main: >>>> stage Data Validation stage started <<<<<<]
+[2024-01-21 17:08:05,435:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:08:05,436:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:08:05,444:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:08:05,445:INFO: common: created directory at: artifacts]
+[2024-01-21 17:08:05,446:INFO: common: created directory at: artifacts/data_validation]
+[2024-01-21 17:08:11,655:INFO: main: >>>>> stage Data Validation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:08:11,656:INFO: main: >>>> stage Data Transformation stage started <<<<<<]
+[2024-01-21 17:08:11,667:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:08:11,668:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:08:11,681:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:08:11,683:INFO: common: created directory at: artifacts]
+[2024-01-21 17:08:11,683:INFO: common: created directory at: artifacts/data_transformation]
+[2024-01-21 17:08:21,963:INFO: data_transformation: Splited data into training and test sets]
+[2024-01-21 17:08:21,964:INFO: data_transformation: (349427, 8)]
+[2024-01-21 17:08:21,965:INFO: data_transformation: (116476, 8)]
+[2024-01-21 17:08:21,973:INFO: main: >>>>> stage Data Transformation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:08:21,973:INFO: main: >>>> stage Model Trainer stage started <<<<<<]
+[2024-01-21 17:08:21,980:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:08:21,983:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:08:22,005:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:08:22,007:INFO: common: created directory at: artifacts]
+[2024-01-21 17:08:22,008:INFO: common: created directory at: artifacts/model_trainer]
+[2024-01-21 17:08:23,015:ERROR: main: 
+All the 10 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+10 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 915, in _fit
+    X, y = self._initialize(X, y)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 852, in _initialize
+    self.model_ = self._build_keras_model()
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 400, in _build_keras_model
+    final_build_fn = self._check_model_param()
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 325, in _check_model_param
+    raise TypeError(
+TypeError: ``model`` must be a callable, a Keras Model instance or None
+]
+Traceback (most recent call last):
+  File "main.py", line 66, in <module>
+    model_trainer.main()
+  File "c:\users\lulug\onedrive\documents\github\e2e-mlops\src\mlProject\pipeline\stage_04_model_trainer.py", line 18, in main
+    model_trainer.train()
+  File "c:\users\lulug\onedrive\documents\github\e2e-mlops\src\mlProject\components\model_trainer.py", line 36, in train
+    results = cross_val_score(estimator, train_x, train_y.values.ravel(), cv=kfold, scoring='neg_mean_squared_error')
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 562, in cross_val_score
+    cv_results = cross_validate(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\utils\_param_validation.py", line 214, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 328, in cross_validate
+    _warn_or_raise_about_fit_failures(results, error_score)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 414, in _warn_or_raise_about_fit_failures
+    raise ValueError(all_fits_failed_message)
+ValueError: 
+All the 10 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+10 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 915, in _fit
+    X, y = self._initialize(X, y)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 852, in _initialize
+    self.model_ = self._build_keras_model()
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 400, in _build_keras_model
+    final_build_fn = self._check_model_param()
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 325, in _check_model_param
+    raise TypeError(
+TypeError: ``model`` must be a callable, a Keras Model instance or None
+
+[2024-01-21 17:11:29,315:INFO: main: >>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-21 17:11:29,321:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:11:29,323:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:11:29,334:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:11:29,336:INFO: common: created directory at: artifacts]
+[2024-01-21 17:11:29,336:INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-21 17:11:29,337:INFO: data_ingestion: File already exists of size : ~ 199879 KB]
+[2024-01-21 17:11:29,337:INFO: main: >>>>> stage Data Ingestion stage complated <<<<<
+
+x======x]
+[2024-01-21 17:11:29,338:INFO: main: >>>> stage Data Validation stage started <<<<<<]
+[2024-01-21 17:11:29,343:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:11:29,346:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:11:29,358:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:11:29,359:INFO: common: created directory at: artifacts]
+[2024-01-21 17:11:29,360:INFO: common: created directory at: artifacts/data_validation]
+[2024-01-21 17:11:37,790:INFO: main: >>>>> stage Data Validation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:11:37,791:INFO: main: >>>> stage Data Transformation stage started <<<<<<]
+[2024-01-21 17:11:37,800:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:11:37,803:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:11:37,818:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:11:37,821:INFO: common: created directory at: artifacts]
+[2024-01-21 17:11:37,823:INFO: common: created directory at: artifacts/data_transformation]
+[2024-01-21 17:11:50,940:INFO: data_transformation: Splited data into training and test sets]
+[2024-01-21 17:11:50,941:INFO: data_transformation: (349427, 8)]
+[2024-01-21 17:11:50,941:INFO: data_transformation: (116476, 8)]
+[2024-01-21 17:11:50,948:INFO: main: >>>>> stage Data Transformation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:11:50,949:INFO: main: >>>> stage Model Trainer stage started <<<<<<]
+[2024-01-21 17:11:50,956:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:11:50,959:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:11:50,970:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:11:50,972:INFO: common: created directory at: artifacts]
+[2024-01-21 17:11:50,972:INFO: common: created directory at: artifacts/model_trainer]
+[2024-01-21 17:11:54,547:ERROR: main: 
+All the 10 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_file3nfpgydg.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_file3nfpgydg.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_1" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_file3nfpgydg.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_2" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_file3nfpgydg.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_3" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_file3nfpgydg.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_4" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_file3nfpgydg.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_5" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_file3nfpgydg.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_6" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_file3nfpgydg.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_7" is incompatible with the layer: expected shape=(None, 13), found shape=(5, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_file3nfpgydg.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_8" is incompatible with the layer: expected shape=(None, 13), found shape=(5, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_file3nfpgydg.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_9" is incompatible with the layer: expected shape=(None, 13), found shape=(5, 7)
+
+]
+Traceback (most recent call last):
+  File "main.py", line 66, in <module>
+    model_trainer.main()
+  File "c:\users\lulug\onedrive\documents\github\e2e-mlops\src\mlProject\pipeline\stage_04_model_trainer.py", line 18, in main
+    model_trainer.train()
+  File "c:\users\lulug\onedrive\documents\github\e2e-mlops\src\mlProject\components\model_trainer.py", line 51, in train
+    results = cross_val_score(pipeline, train_x, train_y.values.ravel(), cv=kfold, scoring='neg_mean_squared_error')
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 562, in cross_val_score
+    cv_results = cross_validate(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\utils\_param_validation.py", line 214, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 328, in cross_validate
+    _warn_or_raise_about_fit_failures(results, error_score)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 414, in _warn_or_raise_about_fit_failures
+    raise ValueError(all_fits_failed_message)
+ValueError: 
+All the 10 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_file3nfpgydg.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_file3nfpgydg.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_1" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_file3nfpgydg.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_2" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_file3nfpgydg.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_3" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_file3nfpgydg.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_4" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_file3nfpgydg.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_5" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_file3nfpgydg.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_6" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_file3nfpgydg.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_7" is incompatible with the layer: expected shape=(None, 13), found shape=(5, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_file3nfpgydg.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_8" is incompatible with the layer: expected shape=(None, 13), found shape=(5, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_file3nfpgydg.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_9" is incompatible with the layer: expected shape=(None, 13), found shape=(5, 7)
+
+
+[2024-01-21 17:13:04,861:INFO: main: >>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-21 17:13:04,870:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:13:04,874:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:13:04,889:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:13:04,890:INFO: common: created directory at: artifacts]
+[2024-01-21 17:13:04,891:INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-21 17:13:04,892:INFO: data_ingestion: File already exists of size : ~ 199879 KB]
+[2024-01-21 17:13:04,892:INFO: main: >>>>> stage Data Ingestion stage complated <<<<<
+
+x======x]
+[2024-01-21 17:13:04,893:INFO: main: >>>> stage Data Validation stage started <<<<<<]
+[2024-01-21 17:13:04,902:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:13:04,905:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:13:04,928:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:13:04,930:INFO: common: created directory at: artifacts]
+[2024-01-21 17:13:04,931:INFO: common: created directory at: artifacts/data_validation]
+[2024-01-21 17:13:14,560:INFO: main: >>>>> stage Data Validation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:13:14,561:INFO: main: >>>> stage Data Transformation stage started <<<<<<]
+[2024-01-21 17:13:14,572:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:13:14,575:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:13:14,593:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:13:14,596:INFO: common: created directory at: artifacts]
+[2024-01-21 17:13:14,598:INFO: common: created directory at: artifacts/data_transformation]
+[2024-01-21 17:13:30,765:INFO: data_transformation: Splited data into training and test sets]
+[2024-01-21 17:13:30,766:INFO: data_transformation: (349427, 8)]
+[2024-01-21 17:13:30,767:INFO: data_transformation: (116476, 8)]
+[2024-01-21 17:13:30,774:INFO: main: >>>>> stage Data Transformation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:13:30,775:INFO: main: >>>> stage Model Trainer stage started <<<<<<]
+[2024-01-21 17:13:30,788:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:13:30,790:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:13:30,805:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:13:30,807:INFO: common: created directory at: artifacts]
+[2024-01-21 17:13:30,808:INFO: common: created directory at: artifacts/model_trainer]
+[2024-01-21 17:13:35,231:ERROR: main: 
+All the 10 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_filey0rj64lv.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_filey0rj64lv.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_1" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_filey0rj64lv.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_2" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_filey0rj64lv.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_3" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_filey0rj64lv.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_4" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_filey0rj64lv.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_5" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_filey0rj64lv.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_6" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_filey0rj64lv.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_7" is incompatible with the layer: expected shape=(None, 13), found shape=(5, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_filey0rj64lv.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_8" is incompatible with the layer: expected shape=(None, 13), found shape=(5, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_filey0rj64lv.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_9" is incompatible with the layer: expected shape=(None, 13), found shape=(5, 7)
+
+]
+Traceback (most recent call last):
+  File "main.py", line 66, in <module>
+    model_trainer.main()
+  File "c:\users\lulug\onedrive\documents\github\e2e-mlops\src\mlProject\pipeline\stage_04_model_trainer.py", line 18, in main
+    model_trainer.train()
+  File "c:\users\lulug\onedrive\documents\github\e2e-mlops\src\mlProject\components\model_trainer.py", line 53, in train
+    results = cross_val_score(pipeline, train_x, train_y.values.ravel(), cv=kfold, scoring='neg_mean_squared_error')
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 562, in cross_val_score
+    cv_results = cross_validate(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\utils\_param_validation.py", line 214, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 328, in cross_validate
+    _warn_or_raise_about_fit_failures(results, error_score)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 414, in _warn_or_raise_about_fit_failures
+    raise ValueError(all_fits_failed_message)
+ValueError: 
+All the 10 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_filey0rj64lv.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_filey0rj64lv.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_1" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_filey0rj64lv.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_2" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_filey0rj64lv.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_3" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_filey0rj64lv.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_4" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_filey0rj64lv.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_5" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_filey0rj64lv.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_6" is incompatible with the layer: expected shape=(None, 13), found shape=(None, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_filey0rj64lv.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_7" is incompatible with the layer: expected shape=(None, 13), found shape=(5, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_filey0rj64lv.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_8" is incompatible with the layer: expected shape=(None, 13), found shape=(5, 7)
+
+
+--------------------------------------------------------------------------------
+1 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 928, in _fit
+    self._fit_keras_model(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 524, in _fit_keras_model
+    hist = self.model_.fit(x=X, y=y, **fit_args)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\AppData\Local\Temp\__autograph_generated_filey0rj64lv.py", line 15, in tf__train_function
+    retval_ = ag__.converted_call(ag__.ld(step_function), (ag__.ld(self), ag__.ld(iterator)), None, fscope)
+ValueError: in user code:
+
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1338, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1322, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1303, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\training.py", line 1080, in train_step
+        y_pred = self(x, training=True)
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "sequential_9" is incompatible with the layer: expected shape=(None, 13), found shape=(5, 7)
+
+
+[2024-01-21 17:15:12,232:INFO: main: >>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-21 17:15:12,238:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:15:12,238:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:15:12,256:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:15:12,257:INFO: common: created directory at: artifacts]
+[2024-01-21 17:15:12,257:INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-21 17:15:12,258:INFO: data_ingestion: File already exists of size : ~ 199879 KB]
+[2024-01-21 17:15:12,258:INFO: main: >>>>> stage Data Ingestion stage complated <<<<<
+
+x======x]
+[2024-01-21 17:15:12,258:INFO: main: >>>> stage Data Validation stage started <<<<<<]
+[2024-01-21 17:15:12,262:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:15:12,264:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:15:12,275:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:15:12,277:INFO: common: created directory at: artifacts]
+[2024-01-21 17:15:12,277:INFO: common: created directory at: artifacts/data_validation]
+[2024-01-21 17:15:19,241:INFO: main: >>>>> stage Data Validation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:15:19,242:INFO: main: >>>> stage Data Transformation stage started <<<<<<]
+[2024-01-21 17:15:19,250:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:15:19,253:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:15:19,267:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:15:19,270:INFO: common: created directory at: artifacts]
+[2024-01-21 17:15:19,271:INFO: common: created directory at: artifacts/data_transformation]
+[2024-01-21 17:15:31,629:INFO: data_transformation: Splited data into training and test sets]
+[2024-01-21 17:15:31,629:INFO: data_transformation: (349427, 8)]
+[2024-01-21 17:15:31,629:INFO: data_transformation: (116476, 8)]
+[2024-01-21 17:15:31,635:INFO: main: >>>>> stage Data Transformation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:15:31,636:INFO: main: >>>> stage Model Trainer stage started <<<<<<]
+[2024-01-21 17:15:31,647:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:15:31,649:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:15:31,660:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:15:31,663:INFO: common: created directory at: artifacts]
+[2024-01-21 17:15:31,664:INFO: common: created directory at: artifacts/model_trainer]
+[2024-01-21 17:15:32,163:ERROR: main: local variable 'wider_estimator' referenced before assignment]
+Traceback (most recent call last):
+  File "main.py", line 66, in <module>
+    model_trainer.main()
+  File "c:\users\lulug\onedrive\documents\github\e2e-mlops\src\mlProject\pipeline\stage_04_model_trainer.py", line 18, in main
+    model_trainer.train()
+  File "c:\users\lulug\onedrive\documents\github\e2e-mlops\src\mlProject\components\model_trainer.py", line 34, in train
+    estimators = [('standardize', StandardScaler()), ('mlp', wider_estimator)]
+UnboundLocalError: local variable 'wider_estimator' referenced before assignment
+[2024-01-21 17:17:42,683:INFO: main: >>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-21 17:17:42,687:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:17:42,688:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:17:42,694:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:17:42,694:INFO: common: created directory at: artifacts]
+[2024-01-21 17:17:42,695:INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-21 17:17:42,695:INFO: data_ingestion: File already exists of size : ~ 199879 KB]
+[2024-01-21 17:17:42,696:INFO: main: >>>>> stage Data Ingestion stage complated <<<<<
+
+x======x]
+[2024-01-21 17:17:42,696:INFO: main: >>>> stage Data Validation stage started <<<<<<]
+[2024-01-21 17:17:42,699:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:17:42,701:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:17:42,708:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:17:42,709:INFO: common: created directory at: artifacts]
+[2024-01-21 17:17:42,709:INFO: common: created directory at: artifacts/data_validation]
+[2024-01-21 17:17:48,715:INFO: main: >>>>> stage Data Validation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:17:48,715:INFO: main: >>>> stage Data Transformation stage started <<<<<<]
+[2024-01-21 17:17:48,723:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:17:48,725:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:17:48,742:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:17:48,744:INFO: common: created directory at: artifacts]
+[2024-01-21 17:17:48,745:INFO: common: created directory at: artifacts/data_transformation]
+[2024-01-21 17:17:58,605:INFO: data_transformation: Splited data into training and test sets]
+[2024-01-21 17:17:58,605:INFO: data_transformation: (349427, 8)]
+[2024-01-21 17:17:58,606:INFO: data_transformation: (116476, 8)]
+[2024-01-21 17:17:58,611:INFO: main: >>>>> stage Data Transformation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:17:58,612:INFO: main: >>>> stage Model Trainer stage started <<<<<<]
+[2024-01-21 17:17:58,618:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:17:58,620:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:17:58,634:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:17:58,636:INFO: common: created directory at: artifacts]
+[2024-01-21 17:17:58,637:INFO: common: created directory at: artifacts/model_trainer]
+[2024-01-21 17:17:59,771:ERROR: main: 
+All the 10 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+10 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 915, in _fit
+    X, y = self._initialize(X, y)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 852, in _initialize
+    self.model_ = self._build_keras_model()
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 400, in _build_keras_model
+    final_build_fn = self._check_model_param()
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 325, in _check_model_param
+    raise TypeError(
+TypeError: ``model`` must be a callable, a Keras Model instance or None
+]
+Traceback (most recent call last):
+  File "main.py", line 66, in <module>
+    model_trainer.main()
+  File "c:\users\lulug\onedrive\documents\github\e2e-mlops\src\mlProject\pipeline\stage_04_model_trainer.py", line 18, in main
+    model_trainer.train()
+  File "c:\users\lulug\onedrive\documents\github\e2e-mlops\src\mlProject\components\model_trainer.py", line 54, in train
+    results = cross_val_score(pipeline, train_x, train_y.values.ravel(), cv=kfold, scoring='neg_mean_squared_error')
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 562, in cross_val_score
+    cv_results = cross_validate(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\utils\_param_validation.py", line 214, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 328, in cross_validate
+    _warn_or_raise_about_fit_failures(results, error_score)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 414, in _warn_or_raise_about_fit_failures
+    raise ValueError(all_fits_failed_message)
+ValueError: 
+All the 10 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+10 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 915, in _fit
+    X, y = self._initialize(X, y)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 852, in _initialize
+    self.model_ = self._build_keras_model()
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 400, in _build_keras_model
+    final_build_fn = self._check_model_param()
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 325, in _check_model_param
+    raise TypeError(
+TypeError: ``model`` must be a callable, a Keras Model instance or None
+
+[2024-01-21 17:19:45,412:INFO: main: >>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-21 17:19:45,422:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:19:45,424:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:19:45,438:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:19:45,440:INFO: common: created directory at: artifacts]
+[2024-01-21 17:19:45,441:INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-21 17:19:45,442:INFO: data_ingestion: File already exists of size : ~ 199879 KB]
+[2024-01-21 17:19:45,442:INFO: main: >>>>> stage Data Ingestion stage complated <<<<<
+
+x======x]
+[2024-01-21 17:19:45,443:INFO: main: >>>> stage Data Validation stage started <<<<<<]
+[2024-01-21 17:19:45,451:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:19:45,455:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:19:45,473:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:19:45,475:INFO: common: created directory at: artifacts]
+[2024-01-21 17:19:45,476:INFO: common: created directory at: artifacts/data_validation]
+[2024-01-21 17:19:57,747:INFO: main: >>>>> stage Data Validation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:19:57,748:INFO: main: >>>> stage Data Transformation stage started <<<<<<]
+[2024-01-21 17:19:57,767:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:19:57,773:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:19:57,804:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:19:57,808:INFO: common: created directory at: artifacts]
+[2024-01-21 17:19:57,809:INFO: common: created directory at: artifacts/data_transformation]
+[2024-01-21 17:20:17,045:INFO: data_transformation: Splited data into training and test sets]
+[2024-01-21 17:20:17,045:INFO: data_transformation: (349427, 8)]
+[2024-01-21 17:20:17,045:INFO: data_transformation: (116476, 8)]
+[2024-01-21 17:20:17,051:INFO: main: >>>>> stage Data Transformation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:20:17,053:INFO: main: >>>> stage Model Trainer stage started <<<<<<]
+[2024-01-21 17:20:17,061:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:20:17,063:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:20:17,072:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:20:17,074:INFO: common: created directory at: artifacts]
+[2024-01-21 17:20:17,074:INFO: common: created directory at: artifacts/model_trainer]
+[2024-01-21 17:20:18,226:INFO: builder_impl: Assets written to: C:\Users\lulug\AppData\Local\Temp\tmp24ifst3o\assets]
+[2024-01-21 17:20:18,496:ERROR: main: ]
+Traceback (most recent call last):
+  File "main.py", line 66, in <module>
+    model_trainer.main()
+  File "c:\users\lulug\onedrive\documents\github\e2e-mlops\src\mlProject\pipeline\stage_04_model_trainer.py", line 18, in main
+    model_trainer.train()
+  File "c:\users\lulug\onedrive\documents\github\e2e-mlops\src\mlProject\components\model_trainer.py", line 52, in train
+    results = cross_val_score(pipeline, train_x, train_y.values.ravel(), cv=kfold, scoring='neg_mean_squared_error')
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 562, in cross_val_score
+    cv_results = cross_validate(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\utils\_param_validation.py", line 214, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 309, in cross_validate
+    results = parallel(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\utils\parallel.py", line 65, in __call__
+    return super().__call__(iterable_with_config)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\joblib\parallel.py", line 1863, in __call__
+    return output if self.return_generator else list(output)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\joblib\parallel.py", line 1789, in _get_sequential_output
+    for func, args, kwargs in iterable:
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\utils\parallel.py", line 61, in <genexpr>
+    iterable_with_config = (
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 311, in <genexpr>
+    clone(estimator),
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 75, in clone
+    return estimator.__sklearn_clone__()
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 268, in __sklearn_clone__
+    return _clone_parametrized(self)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 108, in _clone_parametrized
+    new_object_params[name] = clone(param, safe=False)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 76, in clone
+    return _clone_parametrized(estimator, safe=safe)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 86, in _clone_parametrized
+    return estimator_type([clone(e, safe=safe) for e in estimator])
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 86, in <listcomp>
+    return estimator_type([clone(e, safe=safe) for e in estimator])
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 76, in clone
+    return _clone_parametrized(estimator, safe=safe)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 86, in _clone_parametrized
+    return estimator_type([clone(e, safe=safe) for e in estimator])
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 86, in <listcomp>
+    return estimator_type([clone(e, safe=safe) for e in estimator])
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 75, in clone
+    return estimator.__sklearn_clone__()
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 268, in __sklearn_clone__
+    return _clone_parametrized(self)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 108, in _clone_parametrized
+    new_object_params[name] = clone(param, safe=False)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 76, in clone
+    return _clone_parametrized(estimator, safe=safe)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 89, in _clone_parametrized
+    return copy.deepcopy(estimator)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\copy.py", line 153, in deepcopy
+    y = copier(memo)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\_saving_utils.py", line 81, in deepcopy_model
+    new_model = unpack_keras_model(model_bytes)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\_saving_utils.py", line 50, in unpack_keras_model
+    model.load_weights(temp_dir)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\tensorflow\python\training\py_checkpoint_reader.py", line 45, in error_translator
+    raise errors_impl.OpError(None, None, error_message, errors_impl.UNKNOWN)
+tensorflow.python.framework.errors_impl.OpError
+[2024-01-21 17:21:48,117:INFO: main: >>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-21 17:21:48,123:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:21:48,125:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:21:48,136:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:21:48,137:INFO: common: created directory at: artifacts]
+[2024-01-21 17:21:48,137:INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-21 17:21:48,138:INFO: data_ingestion: File already exists of size : ~ 199879 KB]
+[2024-01-21 17:21:48,138:INFO: main: >>>>> stage Data Ingestion stage complated <<<<<
+
+x======x]
+[2024-01-21 17:21:48,138:INFO: main: >>>> stage Data Validation stage started <<<<<<]
+[2024-01-21 17:21:48,144:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:21:48,145:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:21:48,156:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:21:48,158:INFO: common: created directory at: artifacts]
+[2024-01-21 17:21:48,158:INFO: common: created directory at: artifacts/data_validation]
+[2024-01-21 17:21:57,555:INFO: main: >>>>> stage Data Validation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:21:57,556:INFO: main: >>>> stage Data Transformation stage started <<<<<<]
+[2024-01-21 17:21:57,565:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:21:57,567:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:21:57,579:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:21:57,580:INFO: common: created directory at: artifacts]
+[2024-01-21 17:21:57,581:INFO: common: created directory at: artifacts/data_transformation]
+[2024-01-21 17:22:10,654:INFO: data_transformation: Splited data into training and test sets]
+[2024-01-21 17:22:10,655:INFO: data_transformation: (349427, 8)]
+[2024-01-21 17:22:10,655:INFO: data_transformation: (116476, 8)]
+[2024-01-21 17:22:10,663:INFO: main: >>>>> stage Data Transformation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:22:10,664:INFO: main: >>>> stage Model Trainer stage started <<<<<<]
+[2024-01-21 17:22:10,673:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:22:10,676:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:22:10,690:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:22:10,692:INFO: common: created directory at: artifacts]
+[2024-01-21 17:22:10,694:INFO: common: created directory at: artifacts/model_trainer]
+[2024-01-21 17:22:12,509:ERROR: main: 
+All the 10 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+10 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 915, in _fit
+    X, y = self._initialize(X, y)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 852, in _initialize
+    self.model_ = self._build_keras_model()
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 400, in _build_keras_model
+    final_build_fn = self._check_model_param()
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 325, in _check_model_param
+    raise TypeError(
+TypeError: ``model`` must be a callable, a Keras Model instance or None
+]
+Traceback (most recent call last):
+  File "main.py", line 66, in <module>
+    model_trainer.main()
+  File "c:\users\lulug\onedrive\documents\github\e2e-mlops\src\mlProject\pipeline\stage_04_model_trainer.py", line 18, in main
+    model_trainer.train()
+  File "c:\users\lulug\onedrive\documents\github\e2e-mlops\src\mlProject\components\model_trainer.py", line 42, in train
+    results = cross_val_score(pipeline, train_x, train_y.values.ravel(), cv=kfold, scoring='neg_mean_squared_error')
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 562, in cross_val_score
+    cv_results = cross_validate(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\utils\_param_validation.py", line 214, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 328, in cross_validate
+    _warn_or_raise_about_fit_failures(results, error_score)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 414, in _warn_or_raise_about_fit_failures
+    raise ValueError(all_fits_failed_message)
+ValueError: 
+All the 10 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+10 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\model_selection\_validation.py", line 729, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\sklearn\pipeline.py", line 427, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 760, in fit
+    self._fit(
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 915, in _fit
+    X, y = self._initialize(X, y)
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 852, in _initialize
+    self.model_ = self._build_keras_model()
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 400, in _build_keras_model
+    final_build_fn = self._check_model_param()
+  File "C:\Users\lulug\anaconda3\envs\edge\lib\site-packages\scikeras\wrappers.py", line 325, in _check_model_param
+    raise TypeError(
+TypeError: ``model`` must be a callable, a Keras Model instance or None
+
+[2024-01-21 17:26:22,909:INFO: main: >>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-21 17:26:22,913:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:26:22,925:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:26:22,932:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:26:22,933:INFO: common: created directory at: artifacts]
+[2024-01-21 17:26:22,934:INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-21 17:26:22,934:INFO: data_ingestion: File already exists of size : ~ 199879 KB]
+[2024-01-21 17:26:22,934:INFO: main: >>>>> stage Data Ingestion stage complated <<<<<
+
+x======x]
+[2024-01-21 17:26:22,935:INFO: main: >>>> stage Data Validation stage started <<<<<<]
+[2024-01-21 17:26:22,940:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:26:22,941:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:26:22,949:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:26:22,950:INFO: common: created directory at: artifacts]
+[2024-01-21 17:26:22,951:INFO: common: created directory at: artifacts/data_validation]
+[2024-01-21 17:26:29,845:INFO: main: >>>>> stage Data Validation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:26:29,846:INFO: main: >>>> stage Data Transformation stage started <<<<<<]
+[2024-01-21 17:26:29,855:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:26:29,857:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:26:29,868:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:26:29,871:INFO: common: created directory at: artifacts]
+[2024-01-21 17:26:29,872:INFO: common: created directory at: artifacts/data_transformation]
+[2024-01-21 17:26:43,336:INFO: data_transformation: Splited data into training and test sets]
+[2024-01-21 17:26:43,337:INFO: data_transformation: (349427, 8)]
+[2024-01-21 17:26:43,338:INFO: data_transformation: (116476, 8)]
+[2024-01-21 17:26:43,346:INFO: main: >>>>> stage Data Transformation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:26:43,348:INFO: main: >>>> stage Model Trainer stage started <<<<<<]
+[2024-01-21 17:26:43,359:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:26:43,362:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:26:43,376:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:26:43,379:INFO: common: created directory at: artifacts]
+[2024-01-21 17:26:43,380:INFO: common: created directory at: artifacts/model_trainer]
+[2024-01-21 17:33:30,663:INFO: main: >>>>> stage Model Trainer stage complated <<<<<
+
+x======x]
+[2024-01-21 17:33:30,664:INFO: main: >>>> stage Model Evaluation stage started <<<<<<]
+[2024-01-21 17:33:30,673:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:33:30,675:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:33:30,689:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:33:30,691:INFO: common: created directory at: artifacts]
+[2024-01-21 17:33:30,692:INFO: common: created directory at: artifacts/model_evaluation]
+[2024-01-21 17:33:52,639:INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-01-21 17:35:00,590:INFO: main: >>>>> stage Model Evaluation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:39:39,775:INFO: main: >>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-21 17:39:39,834:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:39:39,859:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:39:40,012:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:39:40,053:INFO: common: created directory at: artifacts]
+[2024-01-21 17:39:40,072:INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-21 17:39:40,092:INFO: data_ingestion: File already exists of size : ~ 199879 KB]
+[2024-01-21 17:39:40,099:INFO: main: >>>>> stage Data Ingestion stage complated <<<<<
+
+x======x]
+[2024-01-21 17:39:40,104:INFO: main: >>>> stage Data Validation stage started <<<<<<]
+[2024-01-21 17:39:40,179:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:39:40,198:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:39:40,372:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:39:40,408:INFO: common: created directory at: artifacts]
+[2024-01-21 17:39:40,420:INFO: common: created directory at: artifacts/data_validation]
+[2024-01-21 17:40:44,427:INFO: main: >>>>> stage Data Validation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:40:44,432:INFO: main: >>>> stage Data Transformation stage started <<<<<<]
+[2024-01-21 17:40:44,529:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:40:44,544:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:40:44,699:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:40:44,714:INFO: common: created directory at: artifacts]
+[2024-01-21 17:40:44,720:INFO: common: created directory at: artifacts/data_transformation]
+[2024-01-21 17:41:18,295:INFO: data_transformation: Splited data into training and test sets]
+[2024-01-21 17:41:18,296:INFO: data_transformation: (349427, 8)]
+[2024-01-21 17:41:18,297:INFO: data_transformation: (116476, 8)]
+[2024-01-21 17:41:18,319:INFO: main: >>>>> stage Data Transformation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:41:18,320:INFO: main: >>>> stage Model Trainer stage started <<<<<<]
+[2024-01-21 17:41:18,330:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:41:18,332:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:41:18,346:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:41:18,349:INFO: common: created directory at: artifacts]
+[2024-01-21 17:41:18,351:INFO: common: created directory at: artifacts/model_trainer]
+[2024-01-21 17:54:04,961:INFO: main: >>>>> stage Model Trainer stage complated <<<<<
+
+x======x]
+[2024-01-21 17:54:04,965:INFO: main: >>>> stage Model Evaluation stage started <<<<<<]
+[2024-01-21 17:54:05,002:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:54:05,015:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:54:05,122:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:54:05,130:INFO: common: created directory at: artifacts]
+[2024-01-21 17:54:05,136:INFO: common: created directory at: artifacts/model_evaluation]
+[2024-01-21 17:55:17,347:INFO: common: json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-01-21 17:58:48,400:INFO: main: >>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-21 17:58:48,420:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:58:48,426:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:58:48,497:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:58:48,500:INFO: common: created directory at: artifacts]
+[2024-01-21 17:58:48,504:INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-21 17:58:48,508:INFO: data_ingestion: File already exists of size : ~ 199879 KB]
+[2024-01-21 17:58:48,510:INFO: main: >>>>> stage Data Ingestion stage complated <<<<<
+
+x======x]
+[2024-01-21 17:58:48,511:INFO: main: >>>> stage Data Validation stage started <<<<<<]
+[2024-01-21 17:58:48,540:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:58:48,546:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:58:48,604:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:58:48,609:INFO: common: created directory at: artifacts]
+[2024-01-21 17:58:48,612:INFO: common: created directory at: artifacts/data_validation]
+[2024-01-21 17:59:08,768:INFO: main: >>>>> stage Data Validation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:59:08,770:INFO: main: >>>> stage Data Transformation stage started <<<<<<]
+[2024-01-21 17:59:08,793:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:59:08,798:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:59:08,832:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:59:08,838:INFO: common: created directory at: artifacts]
+[2024-01-21 17:59:08,839:INFO: common: created directory at: artifacts/data_transformation]
+[2024-01-21 17:59:21,383:INFO: data_transformation: Splited data into training and test sets]
+[2024-01-21 17:59:21,384:INFO: data_transformation: (349427, 8)]
+[2024-01-21 17:59:21,384:INFO: data_transformation: (116476, 8)]
+[2024-01-21 17:59:21,393:INFO: main: >>>>> stage Data Transformation stage complated <<<<<
+
+x======x]
+[2024-01-21 17:59:21,394:INFO: main: >>>> stage Model Trainer stage started <<<<<<]
+[2024-01-21 17:59:21,400:INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-21 17:59:21,403:INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-21 17:59:21,414:INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-01-21 17:59:21,417:INFO: common: created directory at: artifacts]
+[2024-01-21 17:59:21,418:INFO: common: created directory at: artifacts/model_trainer]
