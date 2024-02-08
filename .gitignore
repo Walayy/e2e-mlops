@@ -1,3 +1,5 @@
 artifacts/data_ingestion/valeursfoncieres-2023.txt
 mlruns/
 artifacts/model_trainer/model.joblib
+logs/running_logs.log
+artifacts/model_trainer/model.joblib

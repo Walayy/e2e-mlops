@@ -21,7 +21,7 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
         <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="/">Home</a>
+            <a class="navbar-brand" href="/">Accueil</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars"></i>
@@ -38,12 +38,12 @@
     </nav>
     <!-- Page Header-->
     <header class="masthead" style="background-image: url('static/assets/img/wine.jpg')">
-        <div class="container position-relative px-4 px-lg-5">
+        <div class="container position-relative px-4 px-lg-4">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <div class="site-heading">
-                        <h1>House price predictions</h1>
-                        <span class="subheading">A House price Checking Web App</span>
+                        <h1>Prédictions des valeurs foncières</h1>
+                        <span class="subheading">Une application web de prédiction des prix de biens immobilier</span>
                     </div>
                 </div>
             </div>
@@ -53,49 +53,62 @@
     <!-- Main Content-->
     <div class="container px-4 px-lg-5">
         <form class="form-detail" action="/predict" method="post">
-            <h2>Please Fill The Information</h2>
+            <h2>Veuillez remplir toutes les informations ci-dessous</h2>
             <div class="form-row-total">
-                <div class="form-row">
-                    <label for="nature_mutation">Nature Mutation:</label>
-                    <input type="text" name="nature_mutation" id="nature_mutation" class="input-text" placeholder="Nature Mutation" required>
+                <div class="form-row my-3">
+                    <label for="nature_mutation">Nature de la mutation :</label>
+                    <select name="nature_mutation" id="nature_mutation" required>
+                        <option value="0" selected>Vente</option>
+                        <option value="1">Vente en l’état futur d’achèvement</option>
+                        <option value="2">Vente de terrain à bâtir</option>
+                        <option value="3">Adjudication</option>
+                        <option value="4">Expropriation</option>
+                        <option value="5">Échange</option>
+                    </select>
                 </div>
-                <div class="form-row">
-                    <label for="code_postal">Code Postal:</label>
-                    <input type="text" name="code_postal" id="code_postal" class="input-text" placeholder="Code Postal" required>
+                <div class="form-row my-3">
+                    <label for="code_postal">Code postal :</label>
+                    <input type="text" name="code_postal" id="code_postal" class="input-text" placeholder="72100" required>
                 </div>
             </div>
 
             <div class="form-row-total">
-                <div class="form-row">
-                    <label for="nombre_lots">Nombre de Lots:</label>
-                    <input type="text" name="nombre_lots" id="nombre_lots" class="input-text" placeholder="Nombre de Lots" required>
+                <div class="form-row my-3">
+                    <label for="nombre_lots">Nombre de lots :</label>
+                    <input type="text" name="nombre_lots" id="nombre_lots" class="input-text" placeholder="0" title="Un lot est une partie indépendante du lieu" required>
                 </div>
-                <div class="form-row">
-                    <label for="code_type_local">Code Type Local:</label>
-                    <input type="text" name="code_type_local" id="code_type_local" class="input-text" placeholder="Code Type Local" required>
-                </div>
-            </div>
-
-            <div class="form-row-total">
-                <div class="form-row">
-                    <label for="surface_reelle_bati">Surface Reelle Bati:</label>
-                    <input type="text" name="surface_reelle_bati" id="surface_reelle_bati" class="input-text" placeholder="Surface Reelle Bati" required>
-                </div>
-                <div class="form-row">
-                    <label for="nombre_pieces">Nombre Pieces Principales:</label>
-                    <input type="text" name="nombre_pieces" id="nombre_pieces" class="input-text" placeholder="Nombre Pieces Principales" required>
+                <div class="form-row my-3">
+                    <label for="code_type_local">Code type local :</label>
+                    <select id="typeBien" name="code_type_local" id="code_type_local" required>
+                        <option value="1.0" selected>Maison</option>
+                        <option value="2.0">Appartement</option>
+                        <option value="3.0">Dépendance (isolée)</option>
+                        <option value="4.0">Local industriel et commercial ou assimilés</option>
+                    </select>
                 </div>
             </div>
 
             <div class="form-row-total">
-                <div class="form-row">
-                    <label for="surface">Surface Terrain:</label>
-                    <input type="text" name="surface" id="surface" class="input-text" placeholder="Surface Terrain" required>
+                <div class="form-row my-3">
+                    <label for="surface_reelle_bati">Surface réelle bâti :</label>
+                    <input type="text" name="surface_reelle_bati" id="surface_reelle_bati" class="input-text" placeholder="173.0" required>
+                </div>
+                <div class="form-row my-3">
+                    <label for="nombre_pieces">Nombre de pièces principales :</label>
+                    <input type="text" name="nombre_pieces" id="nombre_pieces" class="input-text" placeholder="4.0" required>
+                </div>
+            </div>
+
+            <div class="form-row-total">
+                <div class="form-row my-3">
+                    <label for="surface">Surface terrain :</label>
+                    <input type="text" name="surface" id="surface" class="input-text" placeholder="541.0" required>
+                    <label>m²</label>
                 </div>
             </div>
 
             <div class="form-row-last">
-                <input type="submit" name="register" class="register" value="Predict">
+                <input type="submit" name="register" class="register" value="Prédire">
             </div>
         </form>
     </div>
