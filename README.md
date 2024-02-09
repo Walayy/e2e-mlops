@@ -15,3 +15,7 @@ docker build . -t mlflow -f Dockerfile_mlflow .
 
 ## Web App
 docker build . -t app -f Dockerfile .
+
+# Pour télécharger le modèle ?
+
+https://filesender.renater.fr/?s=download&token=17c4d63d-5556-4a00-bb54-968e3f53a1be
